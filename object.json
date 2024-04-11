@@ -1,0 +1,22 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "SauceDewValley_Jalapeño": {
+                    "Name": "SauceDewValley_Jalapeño",
+                    "Type": "Fruit",
+                    "DisplayName": "{{i18n:JalapeñoName}}",
+                    "Description": "{{i18n:JalapeñoDescription}}",
+                    "Price": 50,
+                    "Edibility": 5,
+                    "ContextTags":[
+                        "color_green"
+                    ]
+                }
+                //To add more add comma above, keep this below last object
+            }
+        }
+    ]
+}

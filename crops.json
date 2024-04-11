@@ -1,0 +1,26 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Crops",
+            "Entries": {
+                "SauceDewValley_JalapeñoSeeds":{
+                    "Name": "SauceDewValley_JalapeñoSeeds",
+                    "SeedName": "{{i18n:JalapeñoSeedsName}}",
+                    "SeedDescription": "{{i18n:JalapeñoSeedsDescription}}",
+                    "Type": "Seeds",
+                    "Seasons": ["spring"],
+                    "DaysInPhase": [1, 2, 3, 2, 1],
+                    "Product": "SauceDewValley_Jalapeño",
+                    "RegrowDays": 3,
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 3,
+                    "ExtraHarvestChance": "{{15Percent}}",
+                    "SeedPurchasePrice": 20
+                }
+                //To add more, add comma above, keep this below last crop
+            }
+        }
+
+    ]
+}
